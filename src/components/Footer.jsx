@@ -3,7 +3,8 @@ import React from 'react'
 const styles = {
     footer: {
         fontSize: '2px',
-        color: black 
+        color: 'black',
+        font: 'Awesome',
     }
 }
 

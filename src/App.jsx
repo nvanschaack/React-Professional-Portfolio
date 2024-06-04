@@ -1,8 +1,7 @@
 import { useState } from 'react'
-
 import NavBar from './components/NavBar'
-import MainContainer from './components/MainContainer'
 import Footer from './components/Footer'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <MainContainer />
+      <Outlet />
       <Footer />
     </>
   )

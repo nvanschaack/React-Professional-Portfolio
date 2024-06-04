@@ -1,8 +1,7 @@
-import React from 'react'
-import AboutMe from './pages/AboutMe'
+// import React from 'react'
 
-export default function MainContainer() {
-  return (
-    <AboutMe />
-  )
-}
+// export default function MainContainer() {
+//   return (
+    
+//   )
+// }
