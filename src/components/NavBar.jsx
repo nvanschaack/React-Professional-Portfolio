@@ -12,7 +12,7 @@ export default function NavBarEl({ currentPage }) {
     return (
         <div >
             <Navbar expand='lg' >
-                <Container style={style.navbar}>
+                <Container >
                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
                     <Navbar.Collapse id='basic-navbar-nav'>
                         <Nav className='me-auto d-flex align-items-center'>

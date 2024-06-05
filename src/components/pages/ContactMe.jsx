@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function ContactMe() {
-  const User = () => {
+  
     //contactFormData is the current value and setContactFormData is the updated value. contactFormData refers to the initial value of name, email, and message. setContactFormData is what is input by the user in the form's input fields
     const [contactFormData, setContactFormData] = useState({ name: '', email: '', message: '' });
     const [formErrors, setFormErrors] = useState({});
@@ -11,16 +11,17 @@ export default function ContactMe() {
       setContactFormData({ ...contactFormData, [e.target.name]: e.target.value })
     };
 
-    const handleBlurForm = (e) => {
-      if (!e.target.value) {
-        setFormErrors({ ...formErrors, [e.target.name]: 'This needs to be filled out' })
-      } else {
-        setFormErrors({ ...formErrors, [e.target.name]: '' })
-      }
-    };
+    // const handleBlurForm = (e) => {
+    //   if (!e.target.value) {
+    //     setFormErrors({ ...formErrors, [e.target.name]: 'This needs to be filled out' })
+    //   } else {
+    //     setFormErrors({ ...formErrors, [e.target.name]: '' })
+    //   }
+    // };
 
     const handleSubmit = (e) => {
       e.preventDefault();
+      console.log(contactFormData);
     };
 
     return (
@@ -34,7 +35,7 @@ export default function ContactMe() {
               name="name"
               value={contactFormData.name}
               onChange={handleChanges}
-              onBlur={handleBlurForm}
+              // onBlur={handleBlurForm}
             />
           </div>
           <div>
@@ -44,7 +45,7 @@ export default function ContactMe() {
               name="email"
               value={contactFormData.email}
               onChange={handleChanges}
-              onBlur={handleBlurForm}
+              // onBlur={handleBlurForm}
             />
           </div>
           <div>
@@ -54,12 +55,13 @@ export default function ContactMe() {
               name="message"
               value={contactFormData.message}
               onChange={handleChanges}
-              onBlur={handleBlurForm}
+              // onBlur={handleBlurForm}
             />
           </div>
+          <button type='submit'>Submit</button>
         </form>
       </section>
     )
-  };
+  
 }
 
