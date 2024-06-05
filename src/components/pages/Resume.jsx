@@ -2,6 +2,14 @@ import React from 'react'
 
 export default function Resume() {
   return (
-    <div>Resume</div>
+    <>
+      <p>
+        If you'd like to check out my resume, click here
+      </p>
+      <a href="#" download>
+        <button>download resume</button>
+      </a>
+    </>
+
   )
 }

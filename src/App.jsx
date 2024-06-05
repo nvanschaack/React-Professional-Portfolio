@@ -1,17 +1,26 @@
-import { useState } from 'react'
-import NavBar from './components/NavBar'
+import NavBarEl from './components/NavBar'
 import Footer from './components/Footer'
-import { Outlet } from 'react-router-dom'
+import Header from './components/Header'
+import { Outlet, useLocation } from 'react-router-dom'
+
+const style = {
+  page: {
+    backgroundColor: 'lightYellow'
+  }
+}
 
 function App() {
-  const [count, setCount] = useState(0)
+  const currentPage = useLocation().pathname
 
   return (
-    <>
-      <NavBar />
-      <Outlet />
+    <div style={style.page}>
+      <NavBarEl currentPage={currentPage} />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

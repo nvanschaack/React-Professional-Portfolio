@@ -7,7 +7,7 @@ import AboutMe from './components/pages/AboutMe.jsx'
 import ContactMe from './components/pages/ContactMe.jsx'
 import Resume from './components/pages/Resume.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
 
 const router = createBrowserRouter([
   {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <ContactMe />,
       },
       {
-        path: 'Resume',
+        path: '/Resume',
         element: <Resume />,
       }
     ]

@@ -1,22 +1,22 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
-const styles = {
-    footer: {
-        fontSize: '2px',
-        color: 'black',
-        font: 'Awesome',
+const style = {
+    iconSize: {
+        fontSize: '45px'
     }
 }
 
 export default function Footer() {
     return (
-        <footer style={styles.footer}>
-            {/* GitHub icon links to my gitHub */}
-            <a href="https://github.com/nvanschaack">
-                <i className="fab fa-github">GitHub</i>
+        <footer>
+            <a href="https://github.com/nvanschaack" style={style.iconSize}>
+                <FaGithub />
             </a>
-      
-            {/* LinkedIn icon links to my LinkedIn */}
+            <a href="https://www.linkedin.com/in/nell-van-schaack/" style={style.iconSize}>
+                <FaLinkedin />
+            </a>
         </footer>
     )
 }
