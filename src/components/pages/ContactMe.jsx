@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Button from 'react-bootstrap/Button';
 
 export default function ContactMe() {
   
@@ -58,7 +59,7 @@ export default function ContactMe() {
               // onBlur={handleBlurForm}
             />
           </div>
-          <button type='submit'>Submit</button>
+          <Button variant="secondary" type='submit'>Submit</Button>
         </form>
       </section>
     )

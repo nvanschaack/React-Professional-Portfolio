@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # React-Professional-Portfolio
 
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [Google Fonts](https://fonts.google.com/selection/embed)

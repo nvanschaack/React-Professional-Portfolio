@@ -7,7 +7,7 @@ import AboutMe from './components/pages/AboutMe.jsx'
 import ContactMe from './components/pages/ContactMe.jsx'
 import Resume from './components/pages/Resume.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import './Main.css'
 
 const router = createBrowserRouter([
   {

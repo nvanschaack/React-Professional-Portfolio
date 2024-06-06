@@ -4,7 +4,7 @@ import { Nav, Navbar, Container } from 'react-bootstrap';
 
 const style = {
     navbar: {
-        color: 'lightBlue',
+        color: 'lightGrey',
     }
 }
 export default function NavBarEl({ currentPage }) {

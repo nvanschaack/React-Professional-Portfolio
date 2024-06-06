@@ -3,7 +3,7 @@ import React from 'react'
 const style = {
     header: {
         textAlign: 'center',
-        color: 'navy'
+        color: 'black'
     }
 }
 
