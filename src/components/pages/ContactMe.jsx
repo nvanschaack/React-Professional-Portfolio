@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import {Form, Col, Row, Button} from 'react-bootstrap'
 
 export default function ContactMe() {
   
@@ -26,6 +23,8 @@ export default function ContactMe() {
     const handleSubmit = (e) => {
       e.preventDefault();
       console.log(contactFormData);
+
+      setContactFormData({name: '', email: '', message: ''})
     };
 
     return (

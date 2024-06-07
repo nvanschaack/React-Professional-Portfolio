@@ -11,11 +11,12 @@ function App() {
     <div >
       <NavBarEl currentPage={currentPage} />
       <Header />
-      <main>
+      <main >
         <Outlet />
       </main>
       <Footer />
     </div>
+  
   )
 }
 

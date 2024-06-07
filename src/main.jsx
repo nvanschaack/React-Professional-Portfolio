@@ -6,6 +6,7 @@ import Portfolio from './components/pages/Portfolio.jsx'
 import AboutMe from './components/pages/AboutMe.jsx'
 import ContactMe from './components/pages/ContactMe.jsx'
 import Resume from './components/pages/Resume.jsx'
+import Error from './components/Error.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Main.css'
 
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
   {
     path: '/', //will always render the App parent component at this '/' path
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
