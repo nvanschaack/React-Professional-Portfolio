@@ -65,7 +65,7 @@ export default function ContactMe() {
       //   </form>
       // </section>
 
-<section style={{ border: '1px solid #ccc', padding: '20px' }}>
+<section style={{ border: '1px solid blue', padding: '20px', margin: '40px' }}>
       <h2>Contact Me</h2>
       <Row className="justify-content-md-center">
         <Col xs={12} md={8}>

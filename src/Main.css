@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: lightyellow;
+    background-color: lightblue;
     font-family: "Noto Serif", sans-serif;
 }
+@media (max-width: 768px) {
+    /* Mobile Styles */
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
