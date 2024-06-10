@@ -1,6 +1,6 @@
 [
     {
-        "projectImage": "./images/happytails.jpeg",
+        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
         "projectName": "Happy Tails", 
         "projectDescription": "Happy Tails is a website designed for animal lovers who are interested in adopting cats and dogs. The website features a homepage where users can view available cats and dogs for adoption. In order to fill out a form to adopt, the user must either sign in or log in.",
         "projectLink": "https://project-two-app-happy-tails.onrender.com/", 
