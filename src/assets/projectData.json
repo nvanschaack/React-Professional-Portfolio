@@ -7,11 +7,11 @@
         "projectRepo": "https://github.com/maxbonetti/project-two-app"
       },
       {
-        "projectImage": "",
-        "projectName": "project two", 
-        "projectDescription": "xvxdsvs",
-        "projectLink": "", 
-        "projectRepo": ""
+        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg",
+        "projectName": "Tech Quiz", 
+        "projectDescription": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
+        "projectLink": "https://tech-quiz-project.onrender.com/", 
+        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
       },
       {
         "projectImage": "",
