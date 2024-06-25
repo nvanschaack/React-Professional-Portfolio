@@ -4,16 +4,16 @@ const style = {
     header: {
         textAlign: 'center',
         color: 'black',
-        padding: '40px',
+        padding: '10px',
     }
 }
 
 export default function Header() {
   return (
     <header style={style.header}>
-        <h1>
+        {/* <h1>
            Professional Portfolio
-        </h1>
+        </h1> */}
     </header>
   )
 }
