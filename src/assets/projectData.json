@@ -2,9 +2,26 @@
     {
         "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
         "projectName": "Happy Tails", 
-        "projectDescription": "Created using Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize, & Darkmode-js",
+        "projectDescription": "application for adopting animals.",
+        "techUsed": "Created using Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize, & Darkmode-js",
         "projectLink": "https://project-two-app-happy-tails.onrender.com/", 
         "projectRepo": "https://github.com/maxbonetti/project-two-app"
+      },
+      {
+        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg?raw=true",
+        "projectName": "Tech Quiz", 
+        "projectDescription": "Test your knowledge with a quiz based on information taught from full-stack bootcamp.",
+        "techUsed": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
+        "projectLink": "https://tech-quiz-project.onrender.com/", 
+        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
+      },
+      {
+        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg",
+        "projectName": "Tech Quiz", 
+        "projectDescription": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
+        "techUsed": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
+        "projectLink": "https://tech-quiz-project.onrender.com/", 
+        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
       },
       {
         "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg",
@@ -12,33 +29,6 @@
         "projectDescription": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
         "projectLink": "https://tech-quiz-project.onrender.com/", 
         "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
-      },
-      {
-        "projectImage": "",
-        "projectName": "project three", 
-        "projectDescription": "bgdrherh",
-        "projectLink": "", 
-        "projectRepo": ""
-      },
-      {
-        "projectImage": "",
-        "projectName": "project three", 
-        "projectDescription": "gergwg",
-        "projectLink": "", 
-        "projectRepo": ""
-      },
-      {
-        "projectImage": "",
-        "projectName": "project three", 
-        "projectDescription": "gergwr",
-        "projectLink": "", 
-        "projectRepo": ""
-      },
-      {
-        "projectImage": "",
-        "projectName": "project three", 
-        "projectDescription": "gwrgew",
-        "projectLink": "", 
-        "projectRepo": ""
       }
+     
 ]

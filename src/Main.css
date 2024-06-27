@@ -4,9 +4,10 @@ body {
     background-color: lightblue;
     font-family: "Noto Serif", sans-serif;
 }
-@media (max-width: 768px) {
-    /* Mobile Styles */
-    body {
-      font-size: 14px; /* Adjust font size for smaller screens */
-    }
-  }
+
+.mainFooter{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0
+}

@@ -1,6 +1,5 @@
 import NavBarEl from './components/NavBar'
 import Footer from './components/Footer'
-import Header from './components/Header'
 import { Outlet, useLocation } from 'react-router-dom'
 
 
@@ -10,7 +9,6 @@ function App() {
   return (
     <div >
       <NavBarEl currentPage={currentPage} />
-      <Header />
       <main >
         <Outlet />
       </main>

@@ -1,14 +1,22 @@
 import React from 'react'
 import Project from '../Project'
 import projectData from '../../assets/projectData.json'
+import { Container, Col, Row } from 'react-bootstrap'
 
 export default function Portfolio() {
   return (
-    <div className='d-flex flex-wrap justify-content-center'>
-      {projectData.map((item, i) => (
-        <Project key={i} data={item} />
-      ))}
+    <Container fluid>
+      <Row>
+        {projectData.map((item, i) => (
+          <Col>
+            <Project key={i} data={item} />
+          </Col>
+        ))}
 
-    </div>
+      </Row>
+    </Container>
+    // <div className='d-flex flex-wrap justify-content-center'>
+
+    // </div>
   )
 }

@@ -10,14 +10,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 // }
 
 export default function Footer() {
-    return (
-        <footer className="text-center py-3 ">
+  return (
+    <footer className="text-center py-3 mainFooter">
       <Container>
         <Row>
           <Col >
-          <p>
-            <h6>Thank you for visiting Nell's Professional Portfolio</h6>
-          </p>
+            <p>
+              <h6>Thank you for visiting Nell's Professional Portfolio</h6>
+            </p>
             <a href="https://github.com/nvanschaack" style={{ fontSize: '1.5rem', color: 'black' }}>
               <FaGithub />
             </a>
@@ -28,5 +28,5 @@ export default function Footer() {
         </Row>
       </Container>
     </footer>
-    )
+  )
 }
