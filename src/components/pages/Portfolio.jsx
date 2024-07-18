@@ -15,8 +15,5 @@ export default function Portfolio() {
 
       </Row>
     </Container>
-    // <div className='d-flex flex-wrap justify-content-center'>
-
-    // </div>
   )
 }

@@ -2,7 +2,7 @@
     {
         "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
         "projectName": "Happy Tails", 
-        "projectDescription": "application for adopting animals.",
+        "projectDescription": "Application for adopting animals.",
         "techUsed": "Created using Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize, & Darkmode-js",
         "projectLink": "https://project-two-app-happy-tails.onrender.com/", 
         "projectRepo": "https://github.com/maxbonetti/project-two-app"
