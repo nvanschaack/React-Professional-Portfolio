@@ -1,34 +1,26 @@
 [
-    {
-        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
-        "projectName": "Happy Tails", 
-        "projectDescription": "Application for adopting animals.",
-        "techUsed": "Created using Express, Express Handlebars, Postgres SQL, Node, Nodemon, Seqeulize, & Darkmode-js",
-        "projectLink": "https://project-two-app-happy-tails.onrender.com/", 
-        "projectRepo": "https://github.com/maxbonetti/project-two-app"
-      },
-      {
-        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg?raw=true",
-        "projectName": "Tech Quiz", 
-        "projectDescription": "Test your knowledge with a quiz based on information taught from full-stack bootcamp.",
-        "techUsed": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
-        "projectLink": "https://tech-quiz-project.onrender.com/", 
-        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
-      },
-      {
-        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg",
-        "projectName": "Tech Quiz", 
-        "projectDescription": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
-        "techUsed": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
-        "projectLink": "https://tech-quiz-project.onrender.com/", 
-        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
-      },
-      {
-        "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/tech-quiz.jpeg",
-        "projectName": "Tech Quiz", 
-        "projectDescription": "Created using React, React Router DOM, Node.js, Express.js, MongoDB, Mongoose, Apollo Server, Apollo Client, JWT's, Bcrypt, & Render",
-        "projectLink": "https://tech-quiz-project.onrender.com/", 
-        "projectRepo": "https://github.com/nvanschaack/React-Professional-Portfolio"
-      }
-     
+  {
+    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/quizexample.png?raw=true",
+    "projectName": "Quizzy",
+    "projectDescription": "Interactive MERN stack app for users to test their knowledge by taking a quiz on several different categories.",
+    "techUsed": "Javascript, React, Node.js, Express.js, MongoDB, Mongoose, Apollo Server & Client, JWT, bcrypt",
+    "projectLink": "https://quizzy-l7t0.onrender.com/",
+    "projectRepo": "https://github.com/nvanschaack/quizzy"
+  },
+  {
+    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
+    "projectName": "Happy Tails",
+    "projectDescription": "Interactive full-stack application that showcases a variety of pets that are up for adoption.",
+    "techUsed": "Javascript, Express.js, Express Handlebars, Postgres SQL, Node.js, Sequelize, bcrypt, Darkmode-js",
+    "projectLink": "https://project-two-app-happy-tails.onrender.com/",
+    "projectRepo": "https://github.com/maxbonetti/project-two-app"
+  },
+  {
+    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/meteormatch.png?raw=true",
+    "projectName": "Meteor Match",
+    "projectDescription": "A fun interactive front-end dating site that pairs users with a made-up creature from space.",
+    "techUsed": "Javascript, Bulma, ChatGPT 4 API - PR Labs, Alien Pickup Line API - Evan Bose",
+    "projectLink": "https://thedorktrain.github.io/MeteorMatch/",
+    "projectRepo": "https://github.com/TheDorkTrain/MeteorMatch"
+  }
 ]
