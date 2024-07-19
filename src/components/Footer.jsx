@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
   return (
-    <footer className="text-center py-3 mainFooter">
+    <footer className="text-center py-3 ">
       <Container>
         <Row>
           <Col >

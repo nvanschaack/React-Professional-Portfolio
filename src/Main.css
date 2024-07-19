@@ -5,9 +5,19 @@ body {
     font-family: "Noto Serif", sans-serif;
 }
 
-.mainFooter{
+/* .mainFooter{
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0
+} */
+
+.content{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
 }

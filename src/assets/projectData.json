@@ -8,7 +8,7 @@
     "projectRepo": "https://github.com/nvanschaack/quizzy"
   },
   {
-    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.jpeg?raw=true",
+    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/happytails.png?raw=true",
     "projectName": "Happy Tails",
     "projectDescription": "Interactive full-stack application that showcases a variety of pets that are up for adoption.",
     "techUsed": "Javascript, Express.js, Express Handlebars, Postgres SQL, Node.js, Sequelize, bcrypt, Darkmode-js",

@@ -9,7 +9,7 @@ function App() {
   return (
     <div >
       <NavBarEl currentPage={currentPage} />
-      <main >
+      <main className='content'>
         <Outlet />
       </main>
       <Footer />
