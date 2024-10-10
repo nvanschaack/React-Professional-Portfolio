@@ -14,7 +14,7 @@ export default function Project({ data }) {
         <Card.Title className='mb-4'>
           {data.projectDescription}
         </Card.Title>
-    
+
         <footer className='blockquote-footer'>
           {data.techUsed}
         </footer>
