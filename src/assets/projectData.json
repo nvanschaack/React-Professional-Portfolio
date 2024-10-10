@@ -1,11 +1,11 @@
 [
   {
-    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/quizexample.png?raw=true",
-    "projectName": "Quizzy",
-    "projectDescription": "Interactive MERN stack app for users to test their knowledge by taking a quiz on several different categories.",
-    "techUsed": "Javascript, React, Node.js, Express.js, MongoDB, Mongoose, Apollo Server & Client, JWT, bcrypt",
-    "projectLink": "https://quizzy-l7t0.onrender.com/",
-    "projectRepo": "https://github.com/nvanschaack/quizzy"
+    "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/finhub.png?raw=true",
+    "projectName": "FinHub",
+    "projectDescription": "A comprehensive financial widget that displays real-time data on key financial indicators.",
+    "techUsed": "Javascript, React, React-Router, Express.js, Electron-Forge",
+    "projectLink": "https://drive.google.com/file/d/1f64hsQOtkL3CjM2u9TOKZkLgxhW_buxc/view?usp=sharing",
+    "projectRepo": "https://github.com/nvanschaack/FinHub"
   },
   {
     "projectImage": "https://github.com/nvanschaack/React-Professional-Portfolio/blob/main/src/assets/images/quizexample.png?raw=true",
