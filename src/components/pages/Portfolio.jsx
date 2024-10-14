@@ -8,8 +8,10 @@ export default function Portfolio() {
     <Container fluid>
       <Row>
         {projectData.map((item, i) => (
-          <Col>
-            <Project key={i} data={item} />
+          //Col needs the key b/c it's wrapping around Project 
+          //whatever is the outer-most element returned from the map NEEDS to have the key
+          <Col key={i}>
+            <Project data={item} />
           </Col>
         ))}
 
