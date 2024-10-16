@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 
+//inline styling will always override global CSS, b/c it's directly on the element, versus on a separate sheet
 const style = {
     navbar: {
         color: 'black',
