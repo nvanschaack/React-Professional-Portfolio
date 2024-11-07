@@ -5,9 +5,11 @@ import Card from 'react-bootstrap/Card';
 
 export default function Project({ data }) {
   return (
-    <Card
-    // style={{ width: '18px', margin: '10px' }}
-    >
+    <Card style={{ 
+      border: '5px solid #9370DB',
+      borderRadius: '8px',
+      boxShadow: '0 16px 16px rgba(147, 112, 219, 0.2)' 
+    }}>
       <Card.Img variant="top" src={data.projectImage} />
       <Card.Header as='h5'>{data.projectName}</Card.Header>
       <Card.Body>
@@ -20,8 +22,8 @@ export default function Project({ data }) {
         </footer>
         {/* Added a container div */}
         {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}>  */}
-        <Button variant="primary" href={data.projectLink} style={{ backgroundColor: 'hsl(210, 80%, 60%)', margin: '2%' }}>Deployed Website</Button>
-        <Button variant="primary" href={data.projectRepo} style={{ backgroundColor: 'hsl(210, 80%, 60%)' }}>Repository Link</Button>
+        <Button variant="primary" href={data.projectLink} style={{ backgroundColor: '#2b6cb0', margin: '2%' }}>Deployed Website</Button>
+        <Button variant="primary" href={data.projectRepo} style={{ backgroundColor: '#2b6cb0' }}>Repository Link</Button>
         {/* </div> */}
       </Card.Body>
     </Card>

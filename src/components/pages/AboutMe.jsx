@@ -8,21 +8,21 @@ export default function AboutMe() {
       {" "}
       {/* Add a class for potential styling */}
       <Row>
-        <Col className="text-center">
+        <Col className="text-center" >
           <img
             src={profile}
             alt="Picture of me"
             style={{ height: "500px", borderRadius: "10px" }}
           />
         </Col>
-        <Col className="text-center d-flex align-items-center">
+        <Col className="text-center d-flex flex-column align-items-center gap-3 justify-content-center">
           <p>
             As a retired Division I athlete from Georgetown University, I hold a
             Bachelor of Science in Nursing and have spent my early career as a
             Registered Nurse, where I developed a strong passion for
             helping others.
           </p>
-
+          
           <p>
             After three fulfilling years in nursing, I sought a new challenge
             that would allow me to leverage my analytical skills and creativity.
@@ -32,7 +32,7 @@ export default function AboutMe() {
             sparked an enthusiastic interest that led me to enroll in a web
             development bootcamp at the University of Texas.
           </p>
-
+          
           <p>
             This decision marked a pivotal shift in my career journey, and I
             have embraced the opportunity to create impactful solutions in a
